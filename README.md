@@ -47,3 +47,31 @@ gcp-driver-sleepiness-crewai-agenticsystem/
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
+
+## System Architecture
+External Client
+curl / Python / REST Client
+        |
+        v
+Cloud Run HTTPS Endpoint
+        |
+        v
+FastAPI REST API
+        |
+        v
+POST /predict
+        |
+        v
+CrewAI Multi-Agent Workflow
+        |
+        +-------------------------------+
+        | 1. Fatigue Analysis Agent      |
+        | 2. RAG Retrieval Agent         |
+        | 3. Intervention Decision Agent |
+        | 4. Safety Validation Agent     |
+        | 5. Memory Update Agent         |
+        | 6. Logging Agent               |
+        +-------------------------------+
+        |
+        v
+Structured JSON Response
