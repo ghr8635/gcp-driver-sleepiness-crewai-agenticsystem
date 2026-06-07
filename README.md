@@ -1,4 +1,4 @@
-# gcp-driver-sleepiness-crewai-agenticsystem
+# GCP Driver Sleepiness CrewAI Agentic System
 
 A cloud-native, agentic driver sleepiness intervention system deployed on **Google Cloud Platform (GCP)**.
 
@@ -17,11 +17,12 @@ The system is designed as a **production-style deployed prototype** for demonstr
 ---
 
 ## Project Name
+
+```text
 gcp-driver-sleepiness-crewai-agenticsystem
 
 ## Project Structure
-
-gcp-driver-sleepiness-crewai-agent/
+gcp-driver-sleepiness-crewai-agenticsystem/
 │
 ├── app/
 │   ├── api_service.py
@@ -47,71 +48,3 @@ gcp-driver-sleepiness-crewai-agent/
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
-
-## Project System Architecture
-External Client
-curl / Python / REST Client
-        |
-        v
-Cloud Run HTTPS Endpoint
-        |
-        v
-FastAPI REST API
-        |
-        v
-POST /predict
-        |
-        v
-CrewAI Multi-Agent Workflow
-        |
-        +-------------------------------+
-        | 1. Fatigue Analysis Agent      |
-        | 2. RAG Retrieval Agent         |
-        | 3. Intervention Decision Agent |
-        | 4. Safety Validation Agent     |
-        | 5. Memory Update Agent         |
-        | 6. Logging Agent               |
-        +-------------------------------+
-        |
-        v
-Structured JSON Response
-
-## GCP Architecture
-
-                           +----------------------+
-                           |   External Client    |
-                           | curl / Python / API  |
-                           +----------+-----------+
-                                      |
-                                      v
-                           +----------------------+
-                           | Google Cloud Run     |
-                           | FastAPI Container    |
-                           +----------+-----------+
-                                      |
-                                      v
-                           +----------------------+
-                           | CrewAI Workflow      |
-                           | Multi-Agent System   |
-                           +----------+-----------+
-                                      |
-              +-----------------------+-----------------------+
-              |                       |                       |
-              v                       v                       v
-   +--------------------+   +--------------------+   +--------------------+
-   | Fatigue Logic      |   | FAISS Vector DB    |   | Vertex AI Gemini   |
-   | Python Scoring     |   | RAG Retrieval      |   | LLM Generation     |
-   +--------------------+   +--------------------+   +--------------------+
-              |                       |                       |
-              +-----------------------+-----------------------+
-                                      |
-                                      v
-                           +----------------------+
-                           | BigQuery Logging     |
-                           | Features + Decisions |
-                           +----------+-----------+
-                                      |
-                                      v
-                           +----------------------+
-                           | JSON API Response    |
-                           +----------------------+
