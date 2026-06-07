@@ -75,3 +75,44 @@ CrewAI Multi-Agent Workflow
         |
         v
 Structured JSON Response
+
+
+## **GCP Architecture**
+                           +----------------------+
+                           |   External Client    |
+                           | curl / Python / API  |
+                           +----------+-----------+
+                                      |
+                                      v
+                           +----------------------+
+                           | Google Cloud Run     |
+                           | FastAPI Container    |
+                           +----------+-----------+
+                                      |
+                                      v
+                           +----------------------+
+                           | CrewAI Workflow      |
+                           | Multi-Agent System   |
+                           +----------+-----------+
+                                      |
+              +-----------------------+-----------------------+
+              |                       |                       |
+              v                       v                       v
+   +--------------------+   +--------------------+   +--------------------+
+   | Fatigue Logic      |   | FAISS Vector DB    |   | Vertex AI Gemini   |
+   | Python Scoring     |   | RAG Retrieval      |   | LLM Generation     |
+   +--------------------+   +--------------------+   +--------------------+
+              |                       |                       |
+              +-----------------------+-----------------------+
+                                      |
+                                      v
+                           +----------------------+
+                           | BigQuery Logging     |
+                           | Features + Decisions |
+                           +----------+-----------+
+                                      |
+                                      v
+                           +----------------------+
+                           | JSON API Response    |
+                           +----------------------+
+
