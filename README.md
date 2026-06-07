@@ -77,7 +77,7 @@ CrewAI Multi-Agent Workflow
 Structured JSON Response
 
 
-## **GCP Architecture**
+**GCP Architecture**
                            +----------------------+
                            |   External Client    |
                            | curl / Python / API  |
