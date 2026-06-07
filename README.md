@@ -17,7 +17,6 @@ The system is designed as a **production-style deployed prototype** for demonstr
 ---
 
 ## Project Name
-
 ```text
 gcp-driver-sleepiness-crewai-agenticsystem
 
