@@ -16,9 +16,7 @@ The system is designed as a **production-style deployed prototype** for demonstr
 
 ---
 
-## Project Name
-```text
-gcp-driver-sleepiness-crewai-agenticsystem
+## GCP Driver Sleepiness CrewAI Agentic System
 
 ## Project Structure
 gcp-driver-sleepiness-crewai-agenticsystem/
@@ -49,6 +47,7 @@ gcp-driver-sleepiness-crewai-agenticsystem/
 └── README.md
 
 ## System Architecture
+
 External Client
 curl / Python / REST Client
         |
