@@ -14,5 +14,6 @@ RUN pip install --no-cache-dir --upgrade pip \
 COPY . .
 
 ENV PORT=8080
+ENV PYTHONUNBUFFERED=1
 
 CMD exec uvicorn app.api_service:app --host 0.0.0.0 --port ${PORT}
