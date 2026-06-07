@@ -1,0 +1,87 @@
+[
+  {
+    "name": "request_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "session_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "timestamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "risk_level",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fatigue_score",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "retrieved_context",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "prompt",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "llm_output",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fan_level",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "music",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "vibration",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "reason",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "model_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "prompt_version",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "max_length",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latency_ms",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "safety_flag",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE"
+  }
+]

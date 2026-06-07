@@ -1,0 +1,9 @@
+crewai
+fastapi
+uvicorn
+google-cloud-bigquery
+google-cloud-pubsub
+google-genai
+faiss-cpu
+numpy
+pydantic

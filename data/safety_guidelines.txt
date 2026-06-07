@@ -1,0 +1,11 @@
+LOW FATIGUE:
+Fan Level 1, Music Off, Vibration Off. Continue passive monitoring without disturbing the driver.
+
+MEDIUM FATIGUE:
+Fan Level 2, Music On, Vibration Off. Use a soft intervention to improve alertness while avoiding unnecessary distraction.
+
+HIGH FATIGUE:
+Fan Level 3, Music On, Vibration On. Use stronger intervention because multiple fatigue indicators suggest high risk. Recommend a safe break if the high state continues.
+
+POLICY:
+Do not give unsafe or distracting recommendations. Prefer automatic in-cabin interventions: fan level, music on/off, and vibration on/off. Keep the reason short and based on the provided vision, lane, steering, and fatigue indicators.

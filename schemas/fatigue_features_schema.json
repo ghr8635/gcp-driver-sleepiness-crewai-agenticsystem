@@ -1,0 +1,92 @@
+[
+  {
+    "name": "session_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "timestamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "camera_frame_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sync_window_ms",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "blink_rate",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "yawning_rate",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "perclos",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sdlp",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lane_keeping_ratio",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lane_departure_frequency",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "steering_entropy",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "steering_reversal_rate",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "steering_angle_variability",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fatigue_camera",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fatigue_steering",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fatigue_lane",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fatigue_score",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "risk_level",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

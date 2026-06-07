@@ -1,0 +1,78 @@
+[
+  {
+    "session_id": "LIVE_001",
+    "timestamp": "2026-06-04T12:00:00Z",
+    "vision": {
+      "blink_rate": 12.0,
+      "yawning_rate": 0.0,
+      "perclos": 8.5
+    },
+    "lane": {
+      "sdlp": 0.18,
+      "lane_keeping_ratio": 0.96,
+      "lane_departure_frequency": 0.0
+    },
+    "steering": {
+      "steering_entropy": 1.2,
+      "steering_reversal_rate": 2.0,
+      "steering_angle_variability": 1.8
+    }
+  },
+  {
+    "session_id": "LIVE_002",
+    "timestamp": "2026-06-04T12:00:05Z",
+    "vision": {
+      "blink_rate": 19.0,
+      "yawning_rate": 0.8,
+      "perclos": 18.0
+    },
+    "lane": {
+      "sdlp": 0.31,
+      "lane_keeping_ratio": 0.88,
+      "lane_departure_frequency": 0.4
+    },
+    "steering": {
+      "steering_entropy": 2.4,
+      "steering_reversal_rate": 4.5,
+      "steering_angle_variability": 3.6
+    }
+  },
+  {
+    "session_id": "LIVE_003",
+    "timestamp": "2026-06-04T12:00:10Z",
+    "vision": {
+      "blink_rate": 27.0,
+      "yawning_rate": 1.7,
+      "perclos": 32.0
+    },
+    "lane": {
+      "sdlp": 0.47,
+      "lane_keeping_ratio": 0.74,
+      "lane_departure_frequency": 1.1
+    },
+    "steering": {
+      "steering_entropy": 3.9,
+      "steering_reversal_rate": 7.2,
+      "steering_angle_variability": 6.1
+    }
+  },
+  {
+    "session_id": "LIVE_004",
+    "timestamp": "2026-06-04T12:00:15Z",
+    "vision": {
+      "blink_rate": 35.0,
+      "yawning_rate": 2.5,
+      "perclos": 45.0
+    },
+    "lane": {
+      "sdlp": 0.62,
+      "lane_keeping_ratio": 0.63,
+      "lane_departure_frequency": 1.8
+    },
+    "steering": {
+      "steering_entropy": 4.8,
+      "steering_reversal_rate": 9.5,
+      "steering_angle_variability": 8.4
+    }
+  }
+]
